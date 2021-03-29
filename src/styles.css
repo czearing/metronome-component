@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  background: #222;
+}
+
+.metronome-icon {
+  display: flex;
+  flex-direction: left;
+}
+
+.metronome-icon-button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background: #ffffff;
+  font-family: "Montserrat";
+  border: 5px solid black;
+  box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+}
+
+.metronome-button {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  color: #222;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: center;
+  flex-grow: 4;
+}
+
+.beats-per-minute {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.time-signature {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
